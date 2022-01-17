@@ -1,14 +1,21 @@
 package pawis.com.Drzewa;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Drzewo {
 	
-	protected Pien pien;
+	private Pien pien;
 	
-	protected int wysokosc;
+	private int wysokosc;
 
 	protected List<Galaz> galezie;
+	
+	public Drzewo() {
+		this.pien = new Pien();
+		this.wysokosc = 1;
+		this.galezie = new ArrayList<Galaz>();
+	}
 	
 	public void rosnij(int iloscLisci) {
 		pien.zwiekszGrubosc();
@@ -24,10 +31,6 @@ public class Drzewo {
 		return pien.grubosc();
 	}
 	
-	public List<Galaz> galezie() {
-		return galezie;
-	}
-	
 	public int iloscLisci() {
 		
 		int iloscLisci = 0;
@@ -38,5 +41,10 @@ public class Drzewo {
 		
 		return iloscLisci;
 	}
+	
+	public int iloscGalezi() {
+		return galezie.size();
+	}	
+
 
 }

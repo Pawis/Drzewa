@@ -4,6 +4,7 @@ public class DrzewoLisciaste extends Drzewo implements Lisciaste {
 
 	
 	public void zrzucLiscie() {
+		if(galezie != null)
 		super.galezie.clear();
 	}
 	

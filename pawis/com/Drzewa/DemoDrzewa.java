@@ -9,5 +9,11 @@ public class DemoDrzewa {
 		
 		drzewoIglaste.iloscSzyszek();
 		drzewoLisciaste.zrzucLiscie();
+		drzewoLisciaste.rosnij(2);
+		drzewoLisciaste.rosnij(2);
+		drzewoLisciaste.rosnij(2);
+		drzewoLisciaste.rosnij(2);
+		System.out.println(drzewoLisciaste.iloscLisci());
+		System.out.println(drzewoLisciaste.wysokosc());
 	}
 }
