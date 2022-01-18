@@ -1,16 +1,17 @@
-package pawis.com.Drzewa;
+package pawis.com.Drzewa.DrzewoIglasteImpl;
 
+import pawis.com.Drzewa.Iglaste.DrzewoIglaste;
 
-public class DrzewoIglaste extends Drzewo implements Iglaste{
+public class Sosna extends DrzewoIglaste {
 
 	private int iloscSzyszek;
-	
+
 	public void produkujSzyszki() {
 		iloscSzyszek++;
-		
 	}
 
 	public int iloscSzyszek() {
 		return iloscSzyszek;
 	}
+
 }

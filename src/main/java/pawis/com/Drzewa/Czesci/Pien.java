@@ -1,9 +1,13 @@
-package pawis.com.Drzewa;
+package pawis.com.Drzewa.Czesci;
 
 
 public class Pien {
 	
 	private int grubosc;
+	
+	public Pien(int grubosc) {
+		this.grubosc = grubosc;
+	}
 	
 	public void zwiekszGrubosc() {
 		grubosc++;

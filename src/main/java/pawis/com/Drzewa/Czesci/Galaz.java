@@ -1,7 +1,8 @@
-package pawis.com.Drzewa;
+package pawis.com.Drzewa.Czesci;
 
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class Galaz {
 
@@ -14,9 +15,11 @@ public class Galaz {
 		}
 	}
 
-	public void dodajLiscie() {
-		liscie.add(new Lisc());
+
+	public void setLiscie(List<Lisc> liscie) {
+		this.liscie = liscie;
 	}
+
 
 	public int iloscLisci() {
 		return liscie.size();
@@ -25,5 +28,6 @@ public class Galaz {
 	public List<Lisc> liscie(){
 		return liscie;
 	}
+	
 
 }
