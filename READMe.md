@@ -1,8 +1,9 @@
 ## Dwie klasy Abstrakcyjne
 
-Uzylem dwoch klas abstrakcyjnych poniewaz uznalem ze nie powinno byc mozliwosci stworzenia objektow tych klas, poniewaz nie posiadaja pelnej funkcjonalnosci drzewa.
-Rozne rodzaje drzew maja rozne metody/mozliwsoci ktore musza same zaimplementowac.(Sosna nie zrzuca lisci, dab juz tak)
+Dwie klasy abstrakcyjne pozwalaja na pomniejszenie pisanego kodu przy tworzeniu innych gatunkow drzew przez dziedziczenie.
+Uzylem abstrakcyjnych klas zamiast konkretncyh poniewaz uznalem ze nie nalezy tworzyc obiektu nie skonczonego drzewa.
 
 ## Interfejsy Lisciaste i Iglaste
 
-Interfejsy Lisciaste i Iglaste moze byc uzyty podczas tworzenia innych rodzajow roslin np. Krzewow
+Interfejsy Lisciaste i Iglaste moga byc uzyty podczas tworzenia innych rodzajow roslin np. Krzewow dodatkowo zapewniaja ze kazda roslina Iglasta badz Lisciasta bedzie musiala zaimplementowac te metody.
+
