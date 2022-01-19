@@ -14,7 +14,7 @@ import pawis.com.Drzewa.Czesci.Galaz;
 import pawis.com.Drzewa.Czesci.Pien;
 import pawis.com.Drzewa.DrzewoLisciasteImpl.Dab;
 
-public class DrzewoLisciasteTest {
+public class DabTest {
 
 	private Dab dab;
 	private Galaz galaz;
@@ -63,6 +63,13 @@ public class DrzewoLisciasteTest {
 		assertTrue(galaz.liscie().get(0).kolor().equals("zielony"));
 		dab.zmienKolorLisci("czerwony");
 		assertTrue(galaz.liscie().get(0).kolor().equals("czerwony"));
+	}
+	
+	@Test
+	public void testProdukujNasiona() {
+		assertEquals(dab.iloscNasion(),0);
+		dab.produkujNasiona();
+		assertEquals(dab.iloscNasion(),1);
 	}
 	
 	

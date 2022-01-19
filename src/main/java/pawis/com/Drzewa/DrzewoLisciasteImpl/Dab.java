@@ -10,7 +10,6 @@ public class Dab extends DrzewoLisciaste {
 
 	public Dab(Pien pien, List<Galaz> galezie) {
 		super(pien, galezie);
-		// TODO Auto-generated constructor stub
 	}
 
 	private int iloscNasion;	

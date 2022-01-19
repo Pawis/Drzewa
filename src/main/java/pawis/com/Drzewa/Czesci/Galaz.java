@@ -16,11 +16,6 @@ public class Galaz {
 	}
 
 
-	public void setLiscie(List<Lisc> liscie) {
-		this.liscie = liscie;
-	}
-
-
 	public int iloscLisci() {
 		return liscie.size();
 	}

@@ -1,6 +1,5 @@
 package pawis.com.Drzewa.Iglaste;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import pawis.com.Drzewa.Czesci.Galaz;
@@ -12,9 +11,9 @@ public abstract class DrzewoIglaste implements Iglaste{
 	
 	private List<Galaz> galezie;
 	
-	public DrzewoIglaste() {
-		this.pien = new Pien(0);
-		this.galezie = new ArrayList<Galaz>();
+	public DrzewoIglaste(Pien pien, List<Galaz> galezie) {
+		this.pien = pien;
+		this.galezie = galezie;
 	}
 	
 	public void rosnij() {
@@ -24,6 +23,15 @@ public abstract class DrzewoIglaste implements Iglaste{
 	
 	public int grubosc() {
 		return pien.grubosc();
+	}
+	
+	public int iloscLisci() {
+		int iloscLisci = 0;
+		for(Galaz a : galezie) {
+			iloscLisci = iloscLisci + a.iloscLisci();
+		}
+		
+		return iloscLisci;
 	}
 	
 }

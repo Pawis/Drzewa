@@ -9,6 +9,7 @@ public class Pien {
 		this.grubosc = grubosc;
 	}
 	
+	
 	public void zwiekszGrubosc() {
 		grubosc++;
 	}
