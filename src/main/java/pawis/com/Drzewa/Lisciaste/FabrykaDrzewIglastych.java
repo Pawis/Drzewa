@@ -16,7 +16,7 @@ public DrzewoIglaste stworzDrzewo(String gatunekDrzewa) {
 			return null;
 		}
 		
-		if(gatunekDrzewa.equals("Sosna")) {
+		if(gatunekDrzewa.equalsIgnoreCase("Sosna")) {
 			List<Galaz> galezie = new ArrayList<Galaz>();
 			Pien pien = new Pien(1);
 			return new Sosna(pien,galezie);

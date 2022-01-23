@@ -30,11 +30,6 @@ public abstract class DrzewoLisciaste implements Lisciaste {
 		galezie.add(new Galaz(5));
 	}
 
-	public void zrzucLiscie() {
-		for (Galaz a : galezie) {
-			a.liscie().clear();
-		}
-	}
 
 	public int grubosc() {
 		return pien.grubosc();
