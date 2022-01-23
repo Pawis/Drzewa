@@ -15,7 +15,7 @@ public class FabrykaDrzewLisciastych {
 			return null;
 		}
 		
-		if(gatunekDrzewa.equals("Dab")) {
+		if(gatunekDrzewa.equalsIgnoreCase("Dab")) {
 			List<Galaz> galezie = new ArrayList<Galaz>();
 			Pien pien = new Pien(1);
 			return new Dab(pien,galezie);
