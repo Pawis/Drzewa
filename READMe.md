@@ -1,17 +1,18 @@
 ## Dwie klasy Abstrakcyjne
 
-Dwie klasy abstrakcyjne pozwalaja na pomniejszenie pisanego kodu przy tworzeniu innych 
-gatunkow drzew przez dziedziczenie.
-Uzylem abstrakcyjnych klas zamiast konkretncyh poniewaz uznalem ze nie nalezy tworzyc 
-obiektu nie skonczonego drzewa.
+Dwie klasy abstrakcyjne pozwalają na pomniejszenie pisanego kodu przy tworzeniu innych
+gatunków drzew przez dziedziczenie.
+Użyłem abstrakcyjnych klas zamiast konkretnych, ponieważ uznałem, że nie należy tworzyć
+obiektu nieskończonego drzewa.
 
 ## Interfejsy Lisciaste i Iglaste
 
-Interfejsy Lisciaste i Iglaste moga byc uzyty podczas tworzenia innych rodzajow roslin np. 
-Krzewow dodatkowo zapewniaja ze kazda roslina Iglasta badz Lisciasta bedzie musiala 
-zaimplementowac te metody.
+Interfejsy Liściaste i Iglaste mogą być użyty podczas tworzenia innych rodzajów roślin 
+np. Krzewów dodatkowo zapewniają, że każda roślina Iglasta bądź Liściasta będzie musiała
+zaimplementować te metody.
 
 ## Fabryka Drzew
 
-Stworzylem rowniez fabryke drzew przy uzyciu wzorca projektowego Metoda Wytworcza, dzieki czemu
-etap tworzenia drzewa jest ukryty a my otrzymujemy juz gotowe drzewo.
+Stworzyłem również fabrykę drzew przy użyciu wzorca projektowego Metoda Wytwórcza, dzięki czemu
+etap tworzenia drzewa jest ukryty, a my otrzymujemy już gotowe drzewo.
+
