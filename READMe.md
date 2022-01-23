@@ -11,8 +11,4 @@ Interfejsy Liściaste i Iglaste mogą być użyty podczas tworzenia innych rodza
 np. Krzewów dodatkowo zapewniają, że każda roślina Iglasta bądź Liściasta będzie musiała
 zaimplementować te metody.
 
-## Fabryka Drzew
-
-Stworzyłem również fabrykę drzew przy użyciu wzorca projektowego Metoda Wytwórcza, dzięki czemu
-etap tworzenia drzewa jest ukryty, a my otrzymujemy już gotowe drzewo.
 
