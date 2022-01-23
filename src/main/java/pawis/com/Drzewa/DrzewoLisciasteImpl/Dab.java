@@ -22,4 +22,10 @@ public class Dab extends DrzewoLisciaste {
 		return iloscNasion;
 	}
 	
+	public void zrzucLiscie() {
+		for (Galaz a : super.getGalezie()) {
+			a.liscie().clear();
+		}
+	}
+	
 }

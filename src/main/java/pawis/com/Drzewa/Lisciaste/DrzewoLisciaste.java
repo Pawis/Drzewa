@@ -21,6 +21,10 @@ public abstract class DrzewoLisciaste implements Lisciaste {
 		this.galezie = galezie;
 	}
 
+	public List<Galaz> getGalezie() {
+		return galezie;
+	}
+
 	public void rosnij() {
 		pien.zwiekszGrubosc();
 		galezie.add(new Galaz(5));
